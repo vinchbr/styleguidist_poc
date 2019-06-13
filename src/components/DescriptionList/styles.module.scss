@@ -1,0 +1,14 @@
+.descriptionList {
+  margin: 0 auto;
+  dd, dt {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+  }
+  dt {
+    width: 25%;
+  }
+  dd {
+    width: 70%;
+  }
+}

@@ -6,7 +6,6 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -17,7 +16,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "strictNullChecks": false,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl" : "src"
   },
   "include": [
     "src"
