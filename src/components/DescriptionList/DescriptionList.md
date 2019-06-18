@@ -1,10 +1,8 @@
 This is a test on how to display a React TS component using Styleguidist
 
-```typescript jsx
-import DescriptionList from './';
-<div>
-    <DescriptionList title={'Interesting Title'} data={'Super data from API'}/>
-</div>
+```jsx harmony
+import DescriptionList from './DescriptionList'
+;<DescriptionList title={<div>Cool Title</div>} data={<div>Data here</div>}/>
 ```
 
 This should be working!!
