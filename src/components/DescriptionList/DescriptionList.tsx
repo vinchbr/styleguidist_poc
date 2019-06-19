@@ -4,10 +4,12 @@ import styles from "./styles.module.scss";
 export interface Props {
   /**
    * Title of the column you are trying to display
+   * @param title
    */
   title: ReactNode;
   /**
-   * Data being displayed on the list
+   * Usually an HTML tag with content
+   * @param data
    */
   data: ReactNode;
 }
